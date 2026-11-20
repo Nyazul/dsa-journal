@@ -8,7 +8,7 @@ import java.util.HashSet;
 public class contains_duplicate_0217 {
 
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution_0217 solution = new Solution_0217();
         int[] nums = {1, 2, 3, 4, 5, 7};
         boolean result = solution.containsDuplicate(nums);
         System.out.println(result); // Output: true
@@ -16,7 +16,7 @@ public class contains_duplicate_0217 {
     
 }
 
-class Solution {
+class Solution_0217 {
     public boolean containsDuplicate(int[] nums) {
         HashSet<Integer> present = new HashSet<>();
 

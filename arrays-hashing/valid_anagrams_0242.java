@@ -6,7 +6,7 @@ import java.util.HashMap;
 
 public class valid_anagrams_0242 {
     public static void main(String[] args) {
-        Solution solution = new Solution();
+        Solution_0242 solution = new Solution_0242();
         String s = "anagram";
         String t = "nagaram";
         boolean result = solution.isAnagram(s, t);
@@ -14,7 +14,7 @@ public class valid_anagrams_0242 {
     }
 }
 
-class Solution {
+class Solution_0242 {
     public boolean isAnagram(String s, String t) {
 
         HashMap<Character, Integer> anagram = new HashMap<>();
